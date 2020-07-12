@@ -1,0 +1,176 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Header */
+.navbar-brand > h2{
+    font-weight: 300;
+}
+
+.navMain {
+    background: radial-gradient(100vh, #000921, #001242, #001857, #000921);
+    padding: 10px;
+}
+
+a .fa{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-decoration: none;
+    color: #000921;
+}
+
+#nav_ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-75%, -25%);
+}
+
+#nav_ul li a{
+    font-size: large;
+    font-weight: 300;
+}
+
+#nav_ul .dropdown-item {
+    font-size: large;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    #nav_ul{
+        margin-top: 10px;
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        margin-right: 55%;
+        transform: translate(0%, 0%);
+    }
+}
+
+.item-perfil-1{
+    margin-left: 15px;
+}
+
+.item-perfil{
+    margin-left: 3px;
+}
+
+/* Main Conteudo */
+#card_1 img{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#card_1:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+#card_1:hover .overlay {
+    transform: scale(4) translateZ(0);
+}
+
+.cards:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+#card_1 h5:hover {
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.card_1 h5:hover {
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+#card_6 img{
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 50px;
+}
+
+#card_6:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+#card_6 h5:hover {
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.card-img-overlay h5{
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+a h5 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* Lançamentos */
+.titulo {
+    text-align: center;
+    font-weight: 300;
+    font-size: x-large;
+}
+
+.subtitulo {
+    text-align: center;
+    font-weight: 200;
+    font-size: large;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+.card .btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.card-header h6{
+    text-align: center;
+    font-weight: 100;
+    font-size: x-large;
+    border-radius: 15px;
+}
+
+.card-footer h6{
+    text-align: center;
+    font-weight: 200;
+    font-size: large;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 36px 44px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+}
