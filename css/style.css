@@ -180,6 +180,16 @@ a h5 {
     0 24px 46px var(--box-shadow-color);
 }
 
+.carousel-inner{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.accordion {
+    padding-top: 15px;
+    margin-top: 50px;
+}
 /* Footer Inicio */
 
 .footer {
