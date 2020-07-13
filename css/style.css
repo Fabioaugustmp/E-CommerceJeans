@@ -182,6 +182,40 @@ a h5 {
 
 /* Footer Inicio */
 
+.footer {
+  position: relative;
+  background: radial-gradient(100vh, #000921, #001242, #001857, #000921);
+  padding: 50px;
+}
+
+.footer h4 {
+    font-weight: 100;
+    text-align: center;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+.footer .footer-top .social-links a {
+    display: inline-block;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.copyright {
+    font-size: small;
+    font-weight: 200;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+
+}
+
+
 .back-to-top {
     position: fixed;
     display: none;
