@@ -43,6 +43,11 @@ a .fa{
     text-decoration: none;
 }
 
+.dropdown-menu .dropdown-item:hover {
+    font-size: larger;
+    font-weight: bolder;
+}
+
 @media (max-width: 768px) {
     #nav_ul{
         margin-top: 10px;
@@ -173,4 +178,37 @@ a h5 {
     transform: translateY(-5px) scale(1.005) translateZ(0);
     box-shadow: 0 36px 44px rgba(0,0,0,0.11),
     0 24px 46px var(--box-shadow-color);
+}
+
+/* Footer Inicio */
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+}
+
+.back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: #000921;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.back-to-top i:hover {
+    background: #001242;
+    color: #ffffff;
+    font-size: 35px;
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+
 }
