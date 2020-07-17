@@ -2,6 +2,7 @@
     font-family: 'Oswald', sans-serif;
 }
 
+
 /* Header */
 .navbar-brand > h2{
     font-weight: 300;
@@ -224,6 +225,71 @@ a h5 {
         margin-bottom: 100px;
     }
 }
+
+/* Faq Lista */
+
+.faq {
+    margin-top: 25px;
+    top: 100%;
+}
+
+.faq .faq-list {
+    padding: 0;
+    list-style: none;
+}
+
+.faq .faq-list li {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.faq .faq-list a {
+    display: block;
+    position: relative;
+    
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-right: 25px;
+}
+
+.faq .faq-list i {
+    text-decoration: none;
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.faq .faq-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+}
+
+.faq .faq-list .icon-show {
+    display: none;
+}
+
+.faq .faq-list a.collapsed {
+    color: #343a40;
+}
+
+.faq .faq-list a.collapsed:hover {
+    color: #000921;
+    text-decoration: none;
+}
+
+.faq .faq-list a.collapsed .icon-show {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.faq .faq-list a.collapsed .icon-close {
+    display: none;
+    text-decoration: none;
+}
+
 
 /* Testimonials */
 
