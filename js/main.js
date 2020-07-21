@@ -160,4 +160,7 @@
     duration: 600
   });
 
+  $('[data-toogle="tooltip"]').tooltip('enable');
+
+
 })(jQuery);
