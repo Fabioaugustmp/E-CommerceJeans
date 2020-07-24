@@ -155,12 +155,8 @@
     items: 1
   });
 
-  // Initi AOS
-  AOS.init({
-    duration: 600
-  });
-
   $('[data-toogle="tooltip"]').tooltip('enable');
 
 
 })(jQuery);
+

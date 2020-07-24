@@ -337,7 +337,7 @@ a h5 {
   .testimonials .testimonial-item p {
     font-style: italic;
     margin: 0 auto 30px auto;
-    font-size: 20px;
+    font-size: 40px;
   }
   
   .testimonials .testimonial-item .testimonial-img {
@@ -348,14 +348,14 @@ a h5 {
   }
   
   .testimonials .testimonial-item h3 {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: 500;
     margin: 10px 0 5px 0;
     color: #fff;
   }
   
   .testimonials .testimonial-item h4 {
-    font-size: 14px;
+    font-size: 25px;
     color: #ddd;
     margin: 0 0 15px 0;
   }
