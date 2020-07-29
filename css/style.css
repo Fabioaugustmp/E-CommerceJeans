@@ -1,13 +1,17 @@
 * {
     font-family: 'Oswald', sans-serif;
 }
-
+ 
 
 /* Header */
 .navbar-brand > h2{
     font-weight: 300;
 }
 
+.navbar-item {
+  font-size: 20px;
+  font-weight: 200;
+}
 .navMain {
     background: radial-gradient(100vh, #000921, #001242, #001857, #000921);
     padding: 10px;
@@ -579,12 +583,40 @@ a h5 {
 }
 
 .seguranca {
-    text-align: end;
+    text-align: center;
+}
+
+.seguranca > h5 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.seguranca > img {
+  width: auto;
+  height: 30px;
+}
+
+.pagamentos {
+  text-align: center;
+}
+
+.pagamentos > h5 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.pagamentos > img {
+  width: auto;
+  height: 30px;
 }
 
 .copyright {
-    font-size: small;
-    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 100;
     color: #ffffff;
     position: relative;
     text-align: center;
